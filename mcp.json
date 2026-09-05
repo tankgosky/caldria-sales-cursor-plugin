@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "caldria-sales": {
+      "url": "https://caldria-sales-mcp.sidiwen94.workers.dev/mcp",
+      "headers": {
+        "Authorization": "Bearer ${GROK_MCP_ACCESS_TOKEN}"
+      }
+    }
+  }
+}
