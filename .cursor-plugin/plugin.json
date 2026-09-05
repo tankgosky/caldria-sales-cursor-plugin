@@ -1,0 +1,25 @@
+{
+  "name": "caldria-sales",
+  "version": "1.0.0",
+  "description": "Restricted Caldria Supply sales CRM tools and auditable prospecting, outreach, inbox, sourcing, and landed-cost skills.",
+  "author": {
+    "name": "Caldria Supply",
+    "email": "support@caldriasupply.com"
+  },
+  "homepage": "https://caldriasupply.com",
+  "repository": "https://github.com/tankgosky/caldria-sales-cursor-plugin",
+  "keywords": ["sales", "crm", "sourcing", "human-approval"],
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "GROK_MCP_ACCESS_TOKEN": {
+        "type": "string",
+        "title": "Caldria MCP access token",
+        "description": "Private Bearer token supplied by Caldria Supply. Never paste it into chat or commit it."
+      }
+    },
+    "required": ["GROK_MCP_ACCESS_TOKEN"]
+  }
+}
