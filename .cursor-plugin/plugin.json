@@ -8,6 +8,7 @@
   },
   "homepage": "https://caldriasupply.com",
   "repository": "https://github.com/tankgosky/caldria-sales-cursor-plugin",
+  "logo": "https://caldriasupply.com/caldria-mark.png",
   "keywords": ["sales", "crm", "sourcing", "human-approval"],
   "skills": "./skills/",
   "mcpServers": "./mcp.json",
